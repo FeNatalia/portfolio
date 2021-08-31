@@ -34,19 +34,8 @@ p{
     margin: var(--space-medium);
 }
 
-.navigation a{
-    font-size: 14px;
-    font-weight: thin;
-    margin-right: var(--space-small);
-    margin-left: var(--space-small);
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-}
 
-#contact a{
-    text-decoration: none;
-}
+
 
 
 

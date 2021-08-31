@@ -1,0 +1,13 @@
+[
+    {
+        "id": 1,
+        "title":"Vegan restaurant website",
+        "description": "This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
+        "technologies": ["React", "CSS", "HTML"],
+        "isFinished": true,
+        "preview": "vegan-restaurant-preview.jpg",
+        "screenshot": "vegan-restaurant-screenshot.jpg"
+
+
+    }
+]
