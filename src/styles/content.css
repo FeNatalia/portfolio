@@ -1,0 +1,35 @@
+#about{
+    height: 700px;
+    background: yellow;
+    display: inline-block;
+    width: 100%
+}
+
+#hero{
+    height: 700px;
+    background: pink;
+    display: inline-block;
+    width: 100%;
+
+}
+
+#projects{
+    height: 700px;
+    background: purple;
+    display: inline-block;
+    width: 100%
+}
+
+#tech{
+    height: 700px;
+    background: blue;
+    display: inline-block;
+    width: 100%
+}
+
+#contact{
+    height: 700px;
+    background: red;
+    display: inline-block;
+    width: 100%
+}
