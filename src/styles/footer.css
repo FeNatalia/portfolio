@@ -1,0 +1,30 @@
+footer{
+    width: 100%;
+    background: var(--color-dusty-pink);
+    overflow: hidden;
+    bottom: 0;
+    display: grid;
+    justify-items: center;
+}
+
+.footer p{
+    margin-bottom: var(--space-medium);
+    margin-top: 0;
+    color: white;
+    font-size: 11px;
+}
+
+.footer ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: var(--space-small);
+    margin-top: var(--space-medium);
+}
+
+.footer li{
+    display: flex;
+    justify-items: center;
+}
