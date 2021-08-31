@@ -4,7 +4,6 @@ import Hero from "./sections/Hero";
 import Technologies from "./sections/Technologies";
 import Contact from "./sections/Contact";
 import Projects from "./sections/Projects";
-import Footer from "./components/Footer";
 import "./styles/styles.css";
 
 export default function App() {
@@ -16,7 +15,6 @@ export default function App() {
       <Projects/>
       <Technologies/>
       <Contact/>
-      <Footer/>
     </div>
   );
 }

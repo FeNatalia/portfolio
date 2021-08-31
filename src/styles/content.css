@@ -1,35 +1,38 @@
-#about{
-    height: 700px;
-    background: yellow;
-    display: inline-block;
-    width: 100%
-}
-
 #hero{
-    height: 700px;
+    height: 100vh;
     background: pink;
     display: inline-block;
     width: 100%;
 
 }
 
+#about{
+    height: 100vh;
+    background: yellow;
+    display: inline-block;
+    width: 100%
+}
+
+
+
 #projects{
-    height: 700px;
+    height: 100vh;
     background: purple;
     display: inline-block;
     width: 100%
 }
 
 #tech{
-    height: 700px;
+    height: 100vh;
     background: blue;
     display: inline-block;
     width: 100%
 }
 
 #contact{
-    height: 700px;
+    height: 100vh;
     background: red;
-    display: inline-block;
+    display: grid;
+    align-items: flex-end;
     width: 100%
 }
