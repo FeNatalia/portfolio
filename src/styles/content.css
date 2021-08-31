@@ -1,3 +1,21 @@
+.content-section{
+    min-height: 100vh;
+    display: grid;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.content-section h2{
+    margin-top: 55px;
+    margin-right: var(--space-medium);
+    margin-left: var(--space-medium);
+    margin-bottom: var(--space-big);
+    text-align: left;
+    padding: 0;
+}
+
 #hero{
     min-height: 100vh;
     background: var(--color-light-pink);
@@ -7,23 +25,23 @@
 }
 
 #hero h1{
-
     text-align: center;
     padding: 0;
+    margin: var(--space-medium);
 }
 
 #about{
-    min-height: 100vh;
     background: white;
-    display: grid;
-    align-items: center;
-    width: 100%;
-    padding: 0;
-    margin: 0;
 }
 
 #about img{
     width: 320px ;
+    align-items: center;
+}
+
+.about-image{
+    display: flex;
+    justify-content: center;
 }
 
 #projects{
@@ -40,10 +58,41 @@
     width: 100%
 }
 
-#contact{
-    min-height: 100vh;
-    background: var(--color-light-pink);
+.contact-section{
     display: grid;
+    justify-content: center;
+    margin-bottom: var(--space-big);
+}
+
+.contact-section ul{
+    margin: var(--space-medium);
+    padding: 0;
+    list-style: none;
+}
+
+#contact{
+    min-height: 100%;
+    background: var(--color-light-pink);
+    display: inline-block;
     align-items: flex-end;
     width: 100%
 }
+
+#contact img{
+    width: 24px;
+    margin-right: var(--space-small);
+}
+
+.contact-section li{
+    margin-bottom: var(--space-small);
+}
+
+#contact a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: var(--color-very-dark-purple);
+}
+
+
+
