@@ -13,6 +13,12 @@ h1{
     font-size: 34px;
     font-weight: normal;
     line-height: 41px;
+    margin-top: 50px;
+    margin-right: var(--space-medium);
+    margin-left: var(--space-medium);
+    margin-bottom: 0;
+    text-align: left;
+    padding: 0;
 }
 
 h2{
@@ -31,21 +37,23 @@ p{
     font-size: 17px;
     font-weight: normal;
     line-height: 22px;
+    margin-right: var(--space-medium);
+    margin-left: var(--space-medium);
+    margin-bottom: 0;
 }
 
+/* Shared with Nav and Footer*/ 
 ul{
-    padding: 0;
-    margin: 0;
     list-style: none;
     display: flex;
     align-items: center;
     text-align: center;
-
+    padding: 0;
 }
 
 li{
-    float: left;
-    margin-top: 8px;
+    display: flex;
+    justify-items: center;
 }
 
 a{
@@ -58,15 +66,13 @@ a{
     font-weight: bold;
 }
 
+/*Nav*/
 nav{
-    padding: var(--space-small);
-    width: 100%;
-    background: #262626;
+    width: 100vw;
+    height: 50px;
+    background: var(--color-dusty-pink);
     overflow: hidden;
     position: fixed;
-    display: grid;
-    justify-items: center;
-
 }
 
 .navigation img{
@@ -75,11 +81,25 @@ nav{
     margin-top: 0;
 }
 
+.navigation ul{
+    background-color: var(--color-dark-purple);
+    width: 100vw;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/*Footer*/
 footer{
     width: 100%;
-    background: #262626;
+    background: var(--color-dusty-pink);
     overflow: hidden;
     bottom: 0;
     display: grid;
     justify-items: center;
+}
+
+.footer p{
+    margin: var(--space-medium);
+    color: white;
 }

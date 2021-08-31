@@ -2,8 +2,8 @@ import Logo from "../assets/icons/logo.png"
 
 export default function Nav(){
     return (
-        <nav>
-            <ul className="navigation">
+        <nav className="navigation">
+            <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#hero"><img src={Logo} alt=""/></a></li>
