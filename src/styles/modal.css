@@ -19,6 +19,34 @@
 }
 
 #modal-popup img{
-    width: 250px;
+    width: 250px;  
     height: auto;
+}
+
+#modal-popup{
+    max-width: 250px; 
+}
+
+#modal-popup p{
+    margin: var(--space-small);
+
+}
+
+.pills{
+    border: 1px solid #524B53;
+    box-sizing: border-box;
+    border-radius: 100px;
+    margin: 2px;
+    padding: 2px;
+}
+
+#technologies-list{
+    max-width: 270px;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    padding-left: var(--space-small);
+    padding-right: var(--space-small);
+    display: flex;
+    flex-flow: wrap;
 }

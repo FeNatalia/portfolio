@@ -3,7 +3,7 @@
         "id": 1,
         "title":"Vegan restaurant website",
         "description": "This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
-        "technologies": ["React", "CSS", "HTML"],
+        "technologies": ["React", "CSS", "HTML", "JavaScript", "Figma"],
         "isFinished": true,
         "preview": "vegan-restaurant-preview.jpg",
         "screenshot": "vegan-restaurant-screenshot.jpg"
@@ -13,53 +13,53 @@
         "title":"Package tracker",
         "description": "This project is about package tracking where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
         "technologies": ["React", "CSS", "HTML"],
-        "isFinished": true,
-        "preview": "vegan-restaurant-preview.jpg",
-        "screenshot": "vegan-restaurant-screenshot.jpg"
+        "isFinished": false,
+        "preview": "package-preview.jpg",
+        "screenshot": "package-screenshot.jpg"
     },
     {
         "id": 3,
         "title":"Todo list TDD",
         "description": "This project is about todo list where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
         "technologies": ["React", "CSS", "HTML"],
-        "isFinished": true,
-        "preview": "vegan-restaurant-preview.jpg",
-        "screenshot": "vegan-restaurant-screenshot.jpg"
+        "isFinished": false,
+        "preview": "todo-preview.jpg",
+        "screenshot": "todo-screenshot.jpg"
     },
     {
         "id": 4,
         "title":"E-commerce site",
         "description": "This project is about e-commerce where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
         "technologies": ["React", "CSS", "HTML"],
-        "isFinished": true,
-        "preview": "vegan-restaurant-preview.jpg",
-        "screenshot": "vegan-restaurant-screenshot.jpg"
+        "isFinished": false,
+        "preview": "shop-preview.jpg",
+        "screenshot": "shop-screenshot.jpg"
     },
     {
         "id": 5,
         "title":"BBQ restaurant website",
         "description": "This project is about a bbq restaurant where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
         "technologies": ["React", "CSS", "HTML"],
-        "isFinished": true,
-        "preview": "vegan-restaurant-preview.jpg",
-        "screenshot": "vegan-restaurant-screenshot.jpg"
+        "isFinished": false,
+        "preview": "bbq-preview.jpg",
+        "screenshot": "bbq-screenshot.jpg"
     },
     {
         "id": 6,
         "title":"Learning platform",
         "description": "This project is about LMS where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
         "technologies": ["React", "CSS", "HTML"],
-        "isFinished": true,
-        "preview": "vegan-restaurant-preview.jpg",
-        "screenshot": "vegan-restaurant-screenshot.jpg"
+        "isFinished": false,
+        "preview": "lms-preview.jpg",
+        "screenshot": "lms-screenshot.jpg"
     },
     {
         "id": 7,
         "title":"Netflix clone",
         "description": "This project is about Netflix clone where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
         "technologies": ["React", "CSS", "HTML"],
-        "isFinished": true,
-        "preview": "vegan-restaurant-preview.jpg",
-        "screenshot": "vegan-restaurant-screenshot.jpg"
+        "isFinished": false,
+        "preview": "netflix-preview.jpg",
+        "screenshot": "netflix-screenshot.jpg"
     }
 ]
