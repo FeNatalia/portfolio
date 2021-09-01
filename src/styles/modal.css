@@ -3,8 +3,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: purple;
-    padding: 50px;
+    background-color: white;
+    padding: var(--space-small);
     z-index: 1000;
 }
 
@@ -16,4 +16,9 @@
     right: 0;
     background-color: rgba(0, 0, 0, .7);
     z-index: 1000;
+}
+
+#modal-popup img{
+    width: 250px;
+    height: auto;
 }
