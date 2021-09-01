@@ -1,13 +1,13 @@
 import { useState } from "react";
 import Modal from "./Modal";
 
-export default function ProjectCard ({title, preview, description, screenshot, technologies, isFinished}) {
+export default function ProjectCard ({title, preview, description, screenshot, technologies, isFinished, website, github}) {
     const previewObject = require(`../assets/pictures/${preview}`);
     const previewURL = previewObject.default;
     const screenshotObject = require(`../assets/pictures/${screenshot}`);
     const screenshotURL = screenshotObject.default;
 
-    const TechnologiesList = technologies.map ((item) => (
+    const ProjectTechnologiesList = technologies.map ((item) => (
         <li className="pills">
             {item}
         </li>
@@ -24,12 +24,15 @@ export default function ProjectCard ({title, preview, description, screenshot, t
             <Modal open={isOpen} onClose={()=> setIsOpen(false)}>
                 <div id="modal-popup">
                     <img src={screenshotURL} alt=""/>
+                    <h2>{title}</h2>
                     <p>{description}</p>
                     <ul id="technologies-list">
-                        {TechnologiesList}
+                        {ProjectTechnologiesList}
                     </ul>
-                    <button>Website</button>
-                    <button>Github</button>
+                    <div className="buttons">
+                        <button className="purple-button"><a target="_blank" rel="noopener noreferrer" href={website}>Visit website/app</a></button>
+                        <button className="white-button"><a target="_blank" rel="noopener noreferrer" href={github}>Git repository</a></button>
+                    </div>
                 </div>
             </Modal>
         </article>

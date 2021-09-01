@@ -56,7 +56,7 @@
 }
 
 .overlayed img{
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 .overlay-text{
@@ -68,11 +68,9 @@
 
 .overlay-text p{
     font-size: 14px;
-
-    color: white;
+    color: black;
     text-transform: uppercase;
     z-index: 900;
-
 }
 
 #projects h3{

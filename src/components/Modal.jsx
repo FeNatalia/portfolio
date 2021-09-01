@@ -6,7 +6,9 @@ export default function Modal({ onClose, open, children }) {
         <>
         <div className="overlay-modal">
             <div className="modal">
-                <button onClick={onClose}>Close modal</button>
+                <div className="corner-button">
+                    <button onClick={onClose}>X</button>
+                </div>
                 {children}
             </div>
         </div>

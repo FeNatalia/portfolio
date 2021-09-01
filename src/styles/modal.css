@@ -4,7 +4,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    padding: var(--space-small);
     z-index: 1000;
 }
 
@@ -32,6 +31,10 @@
 
 }
 
+#modal-popup h2{
+    margin-left: var(--space-small);
+}
+
 .pills{
     border: 1px solid #524B53;
     box-sizing: border-box;
@@ -49,4 +52,53 @@
     padding-right: var(--space-small);
     display: flex;
     flex-flow: wrap;
+}
+
+.buttons a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.buttons button{
+    margin-right: var(--space-small);
+    margin-left: var(--space-small);
+    margin-bottom: 3px;
+    padding: var(--space-small);
+    border: 2px solid var(--color-very-dark-purple);
+}
+
+.buttons{
+    margin-bottom: var(--space-medium);
+}
+
+.purple-button a{
+    color: white;
+}
+
+.white-button a{
+    color: var(--color-very-dark-purple);
+}
+
+#modal-popup .buttons{
+display: grid;
+}
+
+.purple-button{
+    background-color: var(--color-very-dark-purple);
+}
+
+.white-button{
+    background-color: white;
+}
+
+.corner-button button{
+    color: var(--color-very-dark-purple);
+    font-weight: bolder;
+    font-size: 20px;
+    float: right;
+    position: absolute;
+    left: 87%;
+    border: 2px solid var(--color-very-dark-purple);
+    background-color: white;
 }
