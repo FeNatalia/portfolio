@@ -21,6 +21,7 @@
 #hero{
     min-height: 100vh;
     background: var(--color-light-pink);
+    color: var(--color-very-dark-purple);
     display: grid;
     align-items: center;
     width: 100%;
@@ -35,6 +36,7 @@
 /*About me*/
 #about{
     background: white;
+    color: var(--color-very-dark-purple);
 }
 
 #about img{
@@ -56,7 +58,7 @@
 }
 
 .overlayed img{
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 .overlay-text{
@@ -68,11 +70,9 @@
 
 .overlay-text p{
     font-size: 14px;
-
-    color: white;
+    color: black;
     text-transform: uppercase;
     z-index: 900;
-
 }
 
 #projects h3{
@@ -82,6 +82,7 @@
 
 #projects{
     background: var(--color-light-pink);
+    color: var(--color-very-dark-purple);
 }
 
 .projects-section{
@@ -96,6 +97,27 @@
 /*Technologies*/
 #tech{
     background: white;
+    color: var(--color-very-dark-purple);
+}
+
+.tech-card{
+    margin: var(--space-medium);
+}
+
+.tech-card img{
+    height: 44px;
+    width: auto;
+}
+
+.tech-card h3{
+    margin: 0;
+    padding: 0;
+}
+
+.grid-technologies{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
 }
 
 /*Contact me*/
@@ -126,6 +148,10 @@
 
 .contact-section li{
     margin-bottom: var(--space-small);
+}
+
+.contact-section{
+    color: var(--color-very-dark-purple);
 }
 
 #contact a{

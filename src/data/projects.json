@@ -6,7 +6,9 @@
         "technologies": ["React", "CSS", "HTML", "JavaScript", "Figma"],
         "isFinished": true,
         "preview": "vegan-restaurant-preview.jpg",
-        "screenshot": "vegan-restaurant-screenshot.jpg"
+        "screenshot": "vegan-restaurant-screenshot.jpg",
+        "github": "http://www.github.com",
+        "website": "https://www.reggevhummus.se"
     },
     {
         "id": 2,
@@ -15,7 +17,9 @@
         "technologies": ["React", "CSS", "HTML"],
         "isFinished": false,
         "preview": "package-preview.jpg",
-        "screenshot": "package-screenshot.jpg"
+        "screenshot": "package-screenshot.jpg",
+        "github": "http://www.github.com",
+        "website": "http://www.google.com"
     },
     {
         "id": 3,
@@ -24,7 +28,9 @@
         "technologies": ["React", "CSS", "HTML"],
         "isFinished": false,
         "preview": "todo-preview.jpg",
-        "screenshot": "todo-screenshot.jpg"
+        "screenshot": "todo-screenshot.jpg",
+        "github": "http://www.github.com",
+        "website": "http://www.google.com"
     },
     {
         "id": 4,
@@ -33,7 +39,9 @@
         "technologies": ["React", "CSS", "HTML"],
         "isFinished": false,
         "preview": "shop-preview.jpg",
-        "screenshot": "shop-screenshot.jpg"
+        "screenshot": "shop-screenshot.jpg",
+        "github": "http://www.github.com",
+        "website": "http://www.google.com"
     },
     {
         "id": 5,
@@ -42,7 +50,9 @@
         "technologies": ["React", "CSS", "HTML"],
         "isFinished": false,
         "preview": "bbq-preview.jpg",
-        "screenshot": "bbq-screenshot.jpg"
+        "screenshot": "bbq-screenshot.jpg",
+        "github": "http://www.github.com",
+        "website": "http://www.google.com"
     },
     {
         "id": 6,
@@ -51,7 +61,9 @@
         "technologies": ["React", "CSS", "HTML"],
         "isFinished": false,
         "preview": "lms-preview.jpg",
-        "screenshot": "lms-screenshot.jpg"
+        "screenshot": "lms-screenshot.jpg",
+        "github": "http://www.github.com",
+        "website": "http://www.google.com"
     },
     {
         "id": 7,
@@ -60,6 +72,8 @@
         "technologies": ["React", "CSS", "HTML"],
         "isFinished": false,
         "preview": "netflix-preview.jpg",
-        "screenshot": "netflix-screenshot.jpg"
+        "screenshot": "netflix-screenshot.jpg",
+        "github": "http://www.github.com",
+        "website": "http://www.google.com"
     }
 ]

@@ -4,7 +4,7 @@ import ProjectCard from "../components/ProjectCard";
 export default function Projects(){
 
     const ProjectsList = JSONProjects.map((item) => (
-        <ProjectCard key={item.id} title={item.title} preview={item.preview} description={item.description} screenshot={item.screenshot} technologies={item.technologies} isFinished={item.isFinished}/>
+        <ProjectCard key={item.id} title={item.title} preview={item.preview} description={item.description} screenshot={item.screenshot} technologies={item.technologies} isFinished={item.isFinished} github={item.github} website={item.website}/>
     ))
 
     return(
