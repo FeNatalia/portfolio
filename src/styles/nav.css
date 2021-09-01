@@ -29,3 +29,13 @@ nav{
     margin-top: 0;
 }
 
+.navigation a{
+    font-size: 14px;
+    font-weight: thin;
+    margin-right: var(--space-small);
+    margin-left: var(--space-small);
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
