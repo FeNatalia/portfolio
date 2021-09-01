@@ -34,7 +34,7 @@
 
 /*About me*/
 #about{
-    background: white;
+    background: pink;
 }
 
 #about img{
@@ -48,13 +48,18 @@
 }
 
 /*Projects*/
+#projects img{
+    width: 150px;
+    height: auto;
+}
+
 #projects{
     background: var(--color-light-pink);
 }
 
 /*Technologies*/
 #tech{
-    background: white;
+    background: pink;
 }
 
 /*Contact me*/
