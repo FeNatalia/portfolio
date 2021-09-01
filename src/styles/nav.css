@@ -4,6 +4,7 @@ nav{
     background: var(--color-dusty-pink);
     overflow: hidden;
     position: fixed;
+    z-index: 1000;
 }
 
 .navigation ul{
