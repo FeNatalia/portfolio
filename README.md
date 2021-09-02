@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Portfolio landing page app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a landing page portfolio website that highlights the projects that I have done so far and the ones that are coming up. 
 
-## Available Scripts
+## How to use it 
 
-In the project directory, you can run:
+When you start the app, the first page you are going to see is the Hero section, which has a pitch of the portfolio owner. When you are in a different section of the app, by clicking on the navigation logo it will bring you back to this section. 
+
+![The screenshot of the hero section](https://github.com/FeNatalia/portfolio/tree/main/src/assets/readme-screenshots/hero-section.jpg)
+
+The next is the About section which consists of a short introduction of the portfolio owner and an illustration. The About button on the navigation bar links to this section. 
+
+![The screenshot of the about section](https://github.com/FeNatalia/portfolio/tree/main/src/assets/readme-screenshots/about-section.jpg)
+
+The Project section consists of the portfolio owner’s finished projects and projects in process. The Project button on the navigation bar links to this section. The unfinished projects have a text over saying that it is “coming soon” and the preview photo of the project is a little bit faded away. These projects are not clickable as there are no more details on it. 
+
+![The screenshot of the project section](https://github.com/FeNatalia/portfolio/tree/main/src/assets/readme-screenshots/project-section.jpg)
+
+The finished projects are clickable, when you click on one, a popup window will appear with more information about the project: the screenshot of the app, a short description along with the technologies used in the project. There are two buttons that lead to external links related to the project. The popup window can be closed by clicking on “X” on the top right corner.
+
+![The screenshot of the project popup](https://github.com/FeNatalia/portfolio/tree/main/src/assets/readme-screenshots/project-popup.jpg)
+
+The Technologies section shows a name and a logo of technologies that the portfolio owner uses. The Tech button on the navigation bar links to this section. 
+
+![The screenshot of the technologies section](https://github.com/FeNatalia/portfolio/tree/main/src/assets/readme-screenshots/technologies-section.jpg)
+
+The Contact section has clickable links to the portfolio owner’s email, mobile and location. In the bottom of the contact section you can see the footer which has clickable logos of the portfolio owner’s github and LinkedIn profiles. The Contact button on the navigation bar links to this section. 
+
+![The screenshot of the contact section](https://github.com/FeNatalia/portfolio/tree/main/src/assets/readme-screenshots/contact-section.jpg)
+
+## How to start 
+
+You need to have npm installed on your computer. In the project terminal first run:
+
+### `npm install`
+
+It would compile the project before you would run it. After this go to the next step:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Diagram
 
-### `npm test`
+The diagram/component tree of the project structure: 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![a diagram showing the project structure](https://github.com/FeNatalia/portfolio/tree/main/src/assets/readme-screenshots/component-tree.png)
 
-### `npm run build`
+## Prototype
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The prototype is made in Figma and available through the link: https://www.figma.com/file/fLLpWaHqGznkhcNkZpcaYZ/Portfolio-landing-page?node-id=27%3A1048 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Organisational documentation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The documentation of the project is available through the links: 
+https://docs.google.com/spreadsheets/d/1dFw5OwauacNJJuVBXzeO62Z5pwWvzc_Q/edit?usp=sharing&ouid=100998197949313405589&rtpof=true&sd=true
+https://docs.google.com/document/d/1TBw0giZOedSQH9SvWVKnjVVkppuRK1JC/edit?usp=sharing&ouid=100998197949313405589&rtpof=true&sd=true
 
-### `npm run eject`
+## Link
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Portfolio landing page is hosted on: https://portfolio-nf.web.app
