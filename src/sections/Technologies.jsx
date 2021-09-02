@@ -7,12 +7,14 @@ export default function Technologies(){
     ))
     return(
         <div className="content-section" id="tech">
-            <div>
-                <h2>Technologies</h2>
-                <p>Here are the techologies that I already know and also learning at the moment.</p>
-            </div>
-            <div className="grid-technologies">
-                {TechnologiesList}
+            <h2>Technologies</h2>
+            <div className="content-grid">
+                <div>
+                    <p>Here are the techologies that I already know and also learning at the moment.</p>
+                </div>
+                <div className="grid-technologies">
+                    {TechnologiesList}
+                </div>
             </div>
         </div>
     )
