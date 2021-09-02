@@ -161,5 +161,26 @@
     color: var(--color-very-dark-purple);
 }
 
+/*Tablet queries*/
+@media (min-width: 550px) {
+    .projects-section{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .grid-technologies{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        text-align: center;
+    }
+}
+
+/*Desktop queries*/
+@media (min-width: 750px) {
+    .content-grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: flex-start;
+    }
+}
 
 
