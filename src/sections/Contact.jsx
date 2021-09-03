@@ -1,3 +1,4 @@
+//Project files
 import Footer from "../components/Footer";
 import Email from "../assets/icons/email.png";
 import Mobile from "../assets/icons/mobile.png";
@@ -18,13 +19,13 @@ export default function Contact() {
             <ul>
               <li>
                 <a href="mailto:nataliafedorova1989@gmail.com">
-                  <img src={Email} alt="" />
+                  <img src={Email} alt="email icon" />
                   nataliafedorova1989@gmail.com
                 </a>
               </li>
               <li>
                 <a href="tel:0763497580">
-                  <img src={Mobile} alt="" /> +46 76 349 7580
+                  <img src={Mobile} alt="mobile icon" /> +46 76 349 7580
                 </a>
               </li>
               <li>
@@ -33,7 +34,7 @@ export default function Contact() {
                   rel="noopener noreferrer"
                   href="https://en.wikipedia.org/wiki/Stockholm"
                 >
-                  <img src={Location} alt="" /> Stockholm, Sweden
+                  <img src={Location} alt="location icon" /> Stockholm, Sweden
                 </a>
               </li>
             </ul>
