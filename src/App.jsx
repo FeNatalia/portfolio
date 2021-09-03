@@ -9,12 +9,12 @@ import "./styles/styles.css";
 export default function App() {
   return (
     <div className="App">
-      <Nav/>
-      <Hero/>
-      <About/>
-      <Projects/>
-      <Technologies/>
-      <Contact/>
+      <Nav />
+      <Hero />
+      <About />
+      <Projects />
+      <Technologies />
+      <Contact />
     </div>
   );
 }

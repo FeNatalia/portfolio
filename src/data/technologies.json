@@ -1,52 +1,52 @@
 [
-    {
-        "id": 1,
-        "title": "HTML",
-        "logo":"html.png"
-    },
-    {
-        "id": 2,
-        "title": "CSS",
-        "logo":"css.png"
-    },
-    {
-        "id": 3,
-        "title": "JavaScript",
-        "logo":"js.png"
-    },
-    {
-        "id": 4,
-        "title": "Git",
-        "logo":"git.png"
-    },
-    {
-        "id": 5,
-        "title": "React",
-        "logo":"react.png"
-    },
-    {
-        "id": 6,
-        "title": "Java",
-        "logo":"java.png"
-    },
-    {
-        "id": 7,
-        "title": "Figma",
-        "logo":"figma.png"
-    },
-    {
-        "id": 8,
-        "title": "TypeScript",
-        "logo":"typescript.png"
-    },
-    {
-        "id": 9,
-        "title": "Sass",
-        "logo":"sass.png"
-    },
-    {
-        "id": 10,
-        "title": "Recoil",
-        "logo":"recoil.png"
-    }
+  {
+    "id": 1,
+    "title": "HTML",
+    "logo": "html.png"
+  },
+  {
+    "id": 2,
+    "title": "CSS",
+    "logo": "css.png"
+  },
+  {
+    "id": 3,
+    "title": "JavaScript",
+    "logo": "js.png"
+  },
+  {
+    "id": 4,
+    "title": "Git",
+    "logo": "git.png"
+  },
+  {
+    "id": 5,
+    "title": "React",
+    "logo": "react.png"
+  },
+  {
+    "id": 6,
+    "title": "Java",
+    "logo": "java.png"
+  },
+  {
+    "id": 7,
+    "title": "Figma",
+    "logo": "figma.png"
+  },
+  {
+    "id": 8,
+    "title": "TypeScript",
+    "logo": "typescript.png"
+  },
+  {
+    "id": 9,
+    "title": "Sass",
+    "logo": "sass.png"
+  },
+  {
+    "id": 10,
+    "title": "Recoil",
+    "logo": "recoil.png"
+  }
 ]

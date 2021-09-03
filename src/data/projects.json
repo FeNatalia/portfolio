@@ -1,79 +1,79 @@
 [
-    {
-        "id": 1,
-        "title":"Vegan restaurant website",
-        "description": "This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
-        "technologies": ["React", "CSS", "HTML", "JavaScript", "Figma"],
-        "isFinished": true,
-        "preview": "vegan-restaurant-preview.jpg",
-        "screenshot": "vegan-restaurant-screenshot.jpg",
-        "github": "http://www.github.com",
-        "website": "https://www.reggevhummus.se"
-    },
-    {
-        "id": 2,
-        "title":"Package tracker",
-        "description": "This project is about package tracking where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
-        "technologies": ["React", "CSS", "HTML"],
-        "isFinished": false,
-        "preview": "package-preview.jpg",
-        "screenshot": "package-screenshot.jpg",
-        "github": "http://www.github.com",
-        "website": "http://www.google.com"
-    },
-    {
-        "id": 3,
-        "title":"Todo list TDD",
-        "description": "This project is about todo list where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
-        "technologies": ["React", "CSS", "HTML"],
-        "isFinished": false,
-        "preview": "todo-preview.jpg",
-        "screenshot": "todo-screenshot.jpg",
-        "github": "http://www.github.com",
-        "website": "http://www.google.com"
-    },
-    {
-        "id": 4,
-        "title":"E-commerce site",
-        "description": "This project is about e-commerce where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
-        "technologies": ["React", "CSS", "HTML"],
-        "isFinished": false,
-        "preview": "shop-preview.jpg",
-        "screenshot": "shop-screenshot.jpg",
-        "github": "http://www.github.com",
-        "website": "http://www.google.com"
-    },
-    {
-        "id": 5,
-        "title":"BBQ restaurant website",
-        "description": "This project is about a bbq restaurant where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
-        "technologies": ["React", "CSS", "HTML"],
-        "isFinished": false,
-        "preview": "bbq-preview.jpg",
-        "screenshot": "bbq-screenshot.jpg",
-        "github": "http://www.github.com",
-        "website": "http://www.google.com"
-    },
-    {
-        "id": 6,
-        "title":"Learning platform",
-        "description": "This project is about LMS where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
-        "technologies": ["React", "CSS", "HTML"],
-        "isFinished": false,
-        "preview": "lms-preview.jpg",
-        "screenshot": "lms-screenshot.jpg",
-        "github": "http://www.github.com",
-        "website": "http://www.google.com"
-    },
-    {
-        "id": 7,
-        "title":"Netflix clone",
-        "description": "This project is about Netflix clone where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
-        "technologies": ["React", "CSS", "HTML"],
-        "isFinished": false,
-        "preview": "netflix-preview.jpg",
-        "screenshot": "netflix-screenshot.jpg",
-        "github": "http://www.github.com",
-        "website": "http://www.google.com"
-    }
+  {
+    "id": 1,
+    "title": "Vegan restaurant website",
+    "description": "This project is about a vegan restaurant where users can see the menu, book a table and can obtain a benefit of planning their visit. It uses:",
+    "technologies": ["React", "CSS", "HTML", "JavaScript", "Figma"],
+    "isFinished": true,
+    "preview": "vegan-restaurant-preview.jpg",
+    "screenshot": "vegan-restaurant-screenshot.jpg",
+    "github": "http://www.github.com",
+    "website": "https://www.reggevhummus.se"
+  },
+  {
+    "id": 2,
+    "title": "Package tracker",
+    "description": "This project is about package tracking where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
+    "technologies": ["React", "CSS", "HTML"],
+    "isFinished": false,
+    "preview": "package-preview.jpg",
+    "screenshot": "package-screenshot.jpg",
+    "github": "http://www.github.com",
+    "website": "http://www.google.com"
+  },
+  {
+    "id": 3,
+    "title": "Todo list TDD",
+    "description": "This project is about todo list where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
+    "technologies": ["React", "CSS", "HTML"],
+    "isFinished": false,
+    "preview": "todo-preview.jpg",
+    "screenshot": "todo-screenshot.jpg",
+    "github": "http://www.github.com",
+    "website": "http://www.google.com"
+  },
+  {
+    "id": 4,
+    "title": "E-commerce site",
+    "description": "This project is about e-commerce where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
+    "technologies": ["React", "CSS", "HTML"],
+    "isFinished": false,
+    "preview": "shop-preview.jpg",
+    "screenshot": "shop-screenshot.jpg",
+    "github": "http://www.github.com",
+    "website": "http://www.google.com"
+  },
+  {
+    "id": 5,
+    "title": "BBQ restaurant website",
+    "description": "This project is about a bbq restaurant where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
+    "technologies": ["React", "CSS", "HTML"],
+    "isFinished": false,
+    "preview": "bbq-preview.jpg",
+    "screenshot": "bbq-screenshot.jpg",
+    "github": "http://www.github.com",
+    "website": "http://www.google.com"
+  },
+  {
+    "id": 6,
+    "title": "Learning platform",
+    "description": "This project is about LMS where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
+    "technologies": ["React", "CSS", "HTML"],
+    "isFinished": false,
+    "preview": "lms-preview.jpg",
+    "screenshot": "lms-screenshot.jpg",
+    "github": "http://www.github.com",
+    "website": "http://www.google.com"
+  },
+  {
+    "id": 7,
+    "title": "Netflix clone",
+    "description": "This project is about Netflix clone where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
+    "technologies": ["React", "CSS", "HTML"],
+    "isFinished": false,
+    "preview": "netflix-preview.jpg",
+    "screenshot": "netflix-screenshot.jpg",
+    "github": "http://www.github.com",
+    "website": "http://www.google.com"
+  }
 ]

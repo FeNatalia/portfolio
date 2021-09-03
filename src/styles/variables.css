@@ -1,11 +1,11 @@
 :root {
-    --space-smaller: 4px;
-    --space-small: 8px;
-    --space-medium: 16px;
-    --space-big: 24px;
-    --space-bigger: 48px;
-    --color-light-pink: #F0ECF0;
-    --color-dusty-pink: #AB9EAC;
-    --color-dark-purple: #524B53;
-    --color-very-dark-purple: #2E1E2F;
+  --space-smaller: 4px;
+  --space-small: 8px;
+  --space-medium: 16px;
+  --space-big: 24px;
+  --space-bigger: 48px;
+  --color-light-pink: #f0ecf0;
+  --color-dusty-pink: #ab9eac;
+  --color-dark-purple: #524b53;
+  --color-very-dark-purple: #2e1e2f;
 }
