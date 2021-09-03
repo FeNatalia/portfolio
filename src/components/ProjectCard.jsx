@@ -1,26 +1,31 @@
+//NPM Package
 import { useState } from "react";
+//Project files
 import Modal from "./Modal";
 
-export default function ProjectCard({
-  title,
-  preview,
-  description,
-  screenshot,
-  technologies,
-  isFinished,
-  website,
-  github,
-}) {
+export default function ProjectCard({ projectInfo }) {
+  //Local state
+  const [isOpen, setIsOpen] = useState(false);
+  //Constants
+  const {
+    title,
+    preview,
+    description,
+    screenshot,
+    technologies,
+    isFinished,
+    website,
+    github,
+  } = projectInfo;
   const previewObject = require(`../assets/pictures/${preview}`);
   const previewURL = previewObject.default;
   const screenshotObject = require(`../assets/pictures/${screenshot}`);
   const screenshotURL = screenshotObject.default;
-
+  //List of Technologies
   const ProjectTechnologiesList = technologies.map((item) => (
     <li className="pills">{item}</li>
   ));
 
-  const [isOpen, setIsOpen] = useState(false);
   return (
     <article>
       <div
@@ -32,14 +37,12 @@ export default function ProjectCard({
             <p>Coming soon</p>
           </div>
         )}
-        <img src={previewURL} alt="" />
+        <img src={previewURL} alt={preview} />
         <h3>{title}</h3>
       </div>
       <Modal open={isOpen} onClose={() => setIsOpen(false)}>
         <div id="modal-popup">
-          <div>
-            <img src={screenshotURL} alt="" />
-          </div>
+          <img src={screenshotURL} alt={screenshot} />
           <div>
             <h2>{title}</h2>
             <p>{description}</p>

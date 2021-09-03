@@ -1,3 +1,4 @@
+//Project files
 import Logo from "../assets/icons/logo.png";
 
 export default function Nav() {
@@ -12,7 +13,7 @@ export default function Nav() {
         </li>
         <li>
           <a href="#hero">
-            <img src={Logo} alt="" />
+            <img src={Logo} alt="logotype with NF initials" />
           </a>
         </li>
         <li>

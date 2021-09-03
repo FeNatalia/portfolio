@@ -1,7 +1,9 @@
+//Project files
 import TechnologyCard from "../components/TechnologyCard";
 import JSONTechnologies from "../data/technologies.json";
 
 export default function Technologies() {
+  //Component
   const TechnologiesList = JSONTechnologies.map((item) => (
     <TechnologyCard key={item.id} title={item.title} logo={item.logo} />
   ));

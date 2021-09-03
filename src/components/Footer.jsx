@@ -1,3 +1,4 @@
+//Project files
 import LinkedIn from "../assets/icons/linkedin.png";
 import GitHub from "../assets/icons/github.png";
 
@@ -12,7 +13,7 @@ export default function Footer() {
             href="https://www.linkedin.com/in/natfedorova/"
           >
             {" "}
-            <img src={LinkedIn} alt="" />
+            <img src={LinkedIn} alt="linkedin icon" />
           </a>
         </li>
         <li>
@@ -22,7 +23,7 @@ export default function Footer() {
             href="https://github.com/FeNatalia"
           >
             {" "}
-            <img src={GitHub} alt="" />
+            <img src={GitHub} alt="github icon" />
           </a>
         </li>
       </ul>

@@ -1,19 +1,11 @@
+//Project files
 import JSONProjects from "../data/projects.json";
 import ProjectCard from "../components/ProjectCard";
 
 export default function Projects() {
+  //Component
   const ProjectsList = JSONProjects.map((item) => (
-    <ProjectCard
-      key={item.id}
-      title={item.title}
-      preview={item.preview}
-      description={item.description}
-      screenshot={item.screenshot}
-      technologies={item.technologies}
-      isFinished={item.isFinished}
-      github={item.github}
-      website={item.website}
-    />
+    <ProjectCard key={item.id} projectInfo={item} />
   ));
 
   return (

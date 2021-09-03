@@ -1,3 +1,4 @@
+//Project files
 import Illustration from "../assets/illustrations/illustration.png";
 
 export default function About() {
@@ -19,7 +20,7 @@ export default function About() {
           </p>
         </div>
         <div className="about-image">
-          <img src={Illustration} alt="" />
+          <img src={Illustration} alt="an illustration" />
         </div>
       </div>
     </div>
