@@ -1,4 +1,10 @@
-//Project files
+/**
+ * Note:
+ * Add an space after the //
+ * Bad: //Project files
+ * Good: // Project files
+ */
+// Project files
 import Illustration from "../assets/illustrations/illustration.png";
 
 export default function About() {
@@ -6,6 +12,7 @@ export default function About() {
     <div className="content-section" id="about">
       <h2>About me</h2>
       <div className="content-grid">
+        {/* Give this a className like left or top, to make it more sense */}
         <div>
           <p>
             Hello! I’m Natalia, a Junior Front End Developer and Project Manager
@@ -19,6 +26,7 @@ export default function About() {
             the same page. Scroll down to see some of my work!
           </p>
         </div>
+        {/* Give this a className like right or bottom, to make it more sense */}
         <div className="about-image">
           <img src={Illustration} alt="an illustration" />
         </div>

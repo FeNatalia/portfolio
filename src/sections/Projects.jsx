@@ -3,6 +3,16 @@ import JSONProjects from "../data/projects.json";
 import ProjectCard from "../components/ProjectCard";
 
 export default function Projects() {
+  /**
+   * Note 1:
+   * Components, plural even if there is only one, because the comment is a "category title".
+   * Otherwise you need to change it everytime the project evolves,
+   * and you need to add more components.
+   *
+   * Note 2:
+   * The solution done here: Importing data from a JSON and then make a .map() to loop it,
+   * is was is needed on Contact.jsx
+   */
   //Component
   const ProjectsList = JSONProjects.map((item) => (
     <ProjectCard key={item.id} projectInfo={item} />

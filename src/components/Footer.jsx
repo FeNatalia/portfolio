@@ -3,6 +3,14 @@ import LinkedIn from "../assets/icons/linkedin.png";
 import GitHub from "../assets/icons/github.png";
 
 export default function Footer() {
+  /**
+   * Same as in Contact, look how "uggly" the <a> tag becomes
+   * when prettier puts it on 3 lines when it auto format it.
+   * That's a sign that you need to improve it.
+   *
+   * This will not reduce points, because is not as nested or
+   * long as Contact but is something to improve.
+   */
   return (
     <footer className="footer">
       <ul>

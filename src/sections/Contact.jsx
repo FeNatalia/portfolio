@@ -4,6 +4,13 @@ import Email from "../assets/icons/email.png";
 import Mobile from "../assets/icons/mobile.png";
 import Location from "../assets/icons/location.png";
 
+/**
+ * Note:
+ * Readability (nesting) and Reusability (abstraction) -1 and -1
+ * Even if does not pass the 50 lines of code (function length)
+ * this component is hard to read becuase everything is a div inside a div.
+ * To solve we could make the <li> separate components in order to make the <li><a><img> tags easy to reason about
+ */
 export default function Contact() {
   return (
     <div className="content-section" id="contact">

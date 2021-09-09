@@ -2,6 +2,7 @@
 import TechnologyCard from "../components/TechnologyCard";
 import JSONTechnologies from "../data/technologies.json";
 
+// Same comments as in Projects
 export default function Technologies() {
   //Component
   const TechnologiesList = JSONTechnologies.map((item) => (
