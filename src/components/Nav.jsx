@@ -1,6 +1,9 @@
 //Project files
 import Logo from "../assets/icons/logo.png";
 
+// Radability: Name -1
+// Why you CSS class has a better name "navigation"
+// than your React component???
 export default function Nav() {
   return (
     <nav className="navigation">
