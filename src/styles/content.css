@@ -1,8 +1,16 @@
 /*Shared in content*/
-.content-section {
-  min-height: 100vh;
-  display: inline-block;
+.content-left {
+  align-items: flex-start;
+}
+
+.content-right {
   align-items: center;
+}
+
+.content-section {
+  display: grid;
+  align-items: center;
+  justify-items: center;
   width: 100%;
   padding: 0;
   margin: 0;
@@ -19,15 +27,19 @@
 
 /*Hero*/
 #hero {
+  background-image: radial-gradient(rgba(0, 0, 0, 0.7), rgba(255,255,255,0.1)), url("../assets/photos/home-picture.jpg");
+  background-size: cover;
+  background-position: center;
   min-height: 100vh;
-  background: var(--color-light-pink);
-  color: var(--color-very-dark-purple);
+  min-width: 100vw;
   display: grid;
+  justify-items: center;
   align-items: center;
   width: 100%;
 }
 
-#hero h1 {
+#hero-text {
+  color: white;
   text-align: center;
   padding: 0;
   margin: var(--space-medium);
@@ -37,17 +49,17 @@
 #about {
   background: white;
   color: var(--color-very-dark-purple);
+  margin-bottom: 60px;
 }
 
 #about img {
-  width: 320px;
-  height: 228px;
-  align-items: center;
+  width: 80%;
+  padding: var(--space-small);
 }
 
-.about-image {
-  display: inline-block;
-  justify-content: center;
+#about-image {
+  display: grid;
+  justify-items: center;
 }
 
 /*Projects*/
@@ -91,12 +103,14 @@
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: var(--space-small);
   grid-row-gap: var(--space-small);
+  margin-bottom: 60px;
 }
 
 /*Technologies*/
 #tech {
   background: white;
   color: var(--color-very-dark-purple);
+  margin-bottom: 60px;
 }
 
 .tech-card {
@@ -124,6 +138,7 @@
   display: grid;
   justify-content: center;
   margin-bottom: var(--space-big);
+  margin-bottom: 60px;
 }
 
 .contact-section ul {
@@ -135,8 +150,7 @@
 #contact {
   min-height: 100%;
   background: var(--color-light-pink);
-  display: inline-block;
-  align-items: flex-end;
+
   width: 100%;
 }
 
@@ -173,22 +187,22 @@
   }
 
   #about img {
-    min-width: 480px;
-    min-height: 342px;
+    width: 60%;
   }
+
 }
 
 /*Desktop queries*/
 @media (min-width: 750px) {
+  .content-section h2 {
+    margin-top: 90px;
+  }
+
   .content-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    align-items: flex-start;
-  }
-
-  #about img {
-    min-width: 480px;
-    min-height: 342px;
+    justify-items: center;
+    max-width: 750px;
   }
 
   #hero h1 {
@@ -197,4 +211,9 @@
   #hero {
     justify-content: center;
   }
+
+  #about img {
+    width: 100%;
+  }
+
 }
