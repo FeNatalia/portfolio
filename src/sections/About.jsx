@@ -6,7 +6,7 @@ export default function About() {
     <div className="content-section" id="about">
       <h2>About me</h2>
       <div className="content-grid">
-        <div className="content-left">
+        <div className="grid-left">
           <p>
             Hello! I’m Natalia, a Junior Front End Developer and Project Manager
             in IT based in Stockholm. Welcome to my website, here you can find
@@ -19,7 +19,7 @@ export default function About() {
             the same page. Scroll down to see some of my work!
           </p>
         </div>
-        <div classname="content-right" id="about-image">
+        <div className="grid-right" id="about-image">
           <img src={Photo} alt="a young woman smiling in a suit" />
         </div>
       </div>

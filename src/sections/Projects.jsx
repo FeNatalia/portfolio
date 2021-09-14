@@ -12,13 +12,13 @@ export default function Projects() {
     <div className="content-section" id="projects">
       <h2>Projects</h2>
       <div className="content-grid">
-        <div>
+        <div className="grid-left">
           <p>
             Here are the projects I will be making during the Frontend course at
             Novare Potential.
           </p>
         </div>
-        <div className="projects-section">{ProjectsList}</div>
+        <div className="grid-left" id="projects-section">{ProjectsList}</div>
       </div>
     </div>
   );

@@ -4,7 +4,7 @@ import GitHub from "../assets/icons/github.png";
 
 export default function Footer() {
   return (
-    <footer className="footer">
+    <footer id="footer">
       <ul>
         <li>
           <a

@@ -6,8 +6,8 @@ import Location from "../assets/icons/location.png";
 
 export default function Contact() {
   return (
-    <div className="content-section" id="contact">
-      <div className="contact-section">
+    <div id="contact">
+      <div className="content-section">
         <h2>Contact me</h2>
         <div className="content-grid">
           <div>
