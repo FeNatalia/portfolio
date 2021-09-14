@@ -17,13 +17,18 @@
   z-index: 1000;
 }
 
-#modal-popup img {
-  width: 250px;
-  height: auto;
+#modal-img {
+  width: 300px;
+  height: 200px;
+}
+
+#modal-popup img{
+  max-width: 100%;
+  max-height: 100%;
 }
 
 #modal-popup {
-  max-width: 250px;
+  max-width: 300px;
 }
 
 #modal-popup p {
@@ -37,9 +42,9 @@
 .pills {
   border: 1px solid var(--color-dusty-pink);
   box-sizing: border-box;
-  border-radius: 100px;
+  border-radius: 12px;
   margin: 2px;
-  padding: 2px;
+  padding: 5px;
 }
 
 #modal-popup h2 {
@@ -103,9 +108,8 @@
   color: var(--color-very-dark-purple);
   font-weight: bolder;
   font-size: 20px;
-  float: right;
   position: absolute;
-  left: 87%;
+  left: 89%;
   border: 2px solid var(--color-very-dark-purple);
   background-color: white;
 }
@@ -114,20 +118,49 @@
   color: var(--color-dark-purple);
 }
 
-@media (min-width: 750px) {
+/*Tablet queries*/
+@media (min-width: 550px) {
   #modal-popup {
-    min-width: 650px;
-
+    min-width: 520px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
   }
-
+  #modal-img {
+    min-width: 520px;
+    min-height: 350px;
+  }
   #modal-popup img {
-    width: 350px;
-    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
   }
 
   .corner-button button {
-    left: 95%;
+    left: 93%;
+  }
+}
+
+/*Desktop queries*/
+@media (min-width: 992px) {
+  #modal-popup {
+    min-width: 900px;
+    min-height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+
+  #modal-img {
+    min-width: 500px;
+    min-height: 100%;
+  }
+
+  #modal-popup img {
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+  }
+
+  .corner-button button {
+    left: 96%;
   }
 }

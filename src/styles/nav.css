@@ -1,4 +1,5 @@
 nav {
+  top: 0;
   width: 100vw;
   height: 60px;
   background: var(--color-dark-purple);
@@ -41,7 +42,8 @@ nav {
   font-weight: bold;
 }
 
-@media (min-width: 750px) {
+/*Desktop queries*/
+@media (min-width: 992px) {
   .navigation a {
     font-size: 18px;
     margin-right: var(--space-big);

@@ -42,7 +42,9 @@ export default function ProjectCard({ projectInfo }) {
       </div>
       <Modal open={isOpen} onClose={() => setIsOpen(false)}>
         <div id="modal-popup">
+          <div id="modal-img">
           <img src={screenshotURL} alt={screenshot} />
+          </div>
           <div>
             <h2>{title}</h2>
             <p>{description}</p>
