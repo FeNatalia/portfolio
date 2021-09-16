@@ -1,4 +1,4 @@
-//Project files
+// Project files
 import Photo from "../assets/photos/my-photo.png";
 
 export default function About() {

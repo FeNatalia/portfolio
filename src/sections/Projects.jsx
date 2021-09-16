@@ -1,12 +1,17 @@
-//Project files
+// Project files
 import JSONProjects from "../data/projects.json";
-import ProjectCard from "../components/ProjectCard";
+import ProjectItem from "../components/ProjectItem";
+import ProjectModal from "../components/ProjectModal";
 
-export default function Projects() {
-  //Component
+export default function Projects( { setModal }) {
+  // Components
   const ProjectsList = JSONProjects.map((item) => (
-    <ProjectCard key={item.id} projectInfo={item} />
+    <ProjectItem key={item.id} item={item} onClick={()=> onProject(item)}/>
   ));
+
+  function onProject(item) {
+    setModal(<ProjectModal item={item}/>);
+  }
 
   return (
     <div className="content-section" id="projects">

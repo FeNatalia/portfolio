@@ -1,11 +1,11 @@
-//Project files
-import TechnologyCard from "../components/TechnologyCard";
+// Project files
+import TechnologyItem from "../components/TechnologyItem";
 import JSONTechnologies from "../data/technologies.json";
 
 export default function Technologies() {
-  //Component
+  // Components
   const TechnologiesList = JSONTechnologies.map((item) => (
-    <TechnologyCard key={item.id} title={item.title} logo={item.logo} />
+    <TechnologyItem key={item.id} title={item.title} logo={item.logo} />
   ));
   return (
     <div className="content-section" id="tech">

@@ -1,7 +1,7 @@
-//Project files
+// Project files
 import Logo from "../assets/icons/logo.png";
 
-export default function Nav() {
+export default function Navigation() {
   return (
     <nav className="navigation">
       <ul>
@@ -13,7 +13,7 @@ export default function Nav() {
         </li>
         <li>
           <a href="#hero">
-            <img src={Logo} alt="logotype with NF initials" />
+            <img src={Logo} alt="a circle with NF initials" />
           </a>
         </li>
         <li>
