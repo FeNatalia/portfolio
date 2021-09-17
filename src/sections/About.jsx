@@ -14,7 +14,7 @@ export default function About() {
           </p>
           <p>
             I specialize in React development with a user-centered design. I
-            have previuosly completed IT Project Management training with the
+            have previously completed IT Project Management training with the
             focus on Scrum. If your company uses Agile methodologies - we are on
             the same page. Scroll down to see some of my work!
           </p>

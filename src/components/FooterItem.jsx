@@ -1,4 +1,4 @@
-export default function FooterItem( { contactInfo }) {
+export default function FooterItem({ contactInfo }) {
   // Constants
   const { href, icon, iconalt } = contactInfo;
   const iconObject = require(`../assets/icons/${icon}`);
@@ -6,11 +6,7 @@ export default function FooterItem( { contactInfo }) {
 
   return (
     <li>
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href={href}
-      >
+      <a target="_blank" rel="noopener noreferrer" href={href}>
         {" "}
         <img src={iconURL} alt={iconalt} />
       </a>

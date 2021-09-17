@@ -1,43 +1,42 @@
 [
-    {
-        "id" : 1,
-        "category" : "contact",
-        "href": "mailto:nataliafedorova1989@gmail.com",
-        "icon": "email.png",
-        "iconalt": "a closed envelop in a circle",
-        "text": "nataliafedorova1989@gmail.com"
-    },
-    {
-        "id" : 2,
-        "category" : "contact",
-        "href": "tel:0763497580",
-        "icon": "mobile.png",
-        "iconalt": "a retro phone handle in a circle",
-        "text": "+46 76 349 7580"
-    },
-    {
-        "id" : 3,
-        "category" : "contact",
-        "href": "https://www.google.com/maps/place/Stockholm/@59.326142,17.9820525,10z/data=!3m1!4b1!4m5!3m4!1s0x465f763119640bcb:0xa80d27d3679d7766!8m2!3d59.3293235!4d18.0685808",
-        "icon": "location.png",
-        "iconalt": "a map pin in a circle",
-        "text": "Stockholm, Sweden"
-    },
-    {
-        "id" : 4,
-        "category" : "footer",
-        "href": "https://www.linkedin.com/in/natfedorova/",
-        "icon": "linkedin.png",
-        "iconalt": "I and N letters in a square",
-        "text": ""
-    },
-    {
-        "id" : 5,
-        "category" : "footer",
-        "href": "https://github.com/FeNatalia",
-        "icon": "github.png",
-        "iconalt": "a shape of a cat in a circle",
-        "text": ""
-    }
-
+  {
+    "id": 1,
+    "category": "contact",
+    "href": "mailto:nataliafedorova1989@gmail.com",
+    "icon": "email.png",
+    "iconalt": "a closed envelop in a circle",
+    "text": "nataliafedorova1989@gmail.com"
+  },
+  {
+    "id": 2,
+    "category": "contact",
+    "href": "tel:0763497580",
+    "icon": "mobile.png",
+    "iconalt": "a retro phone handle in a circle",
+    "text": "+46 76 349 7580"
+  },
+  {
+    "id": 3,
+    "category": "contact",
+    "href": "https://www.google.com/maps/place/Stockholm/@59.326142,17.9820525,10z/data=!3m1!4b1!4m5!3m4!1s0x465f763119640bcb:0xa80d27d3679d7766!8m2!3d59.3293235!4d18.0685808",
+    "icon": "location.png",
+    "iconalt": "a map pin in a circle",
+    "text": "Stockholm, Sweden"
+  },
+  {
+    "id": 4,
+    "category": "footer",
+    "href": "https://www.linkedin.com/in/natfedorova/",
+    "icon": "linkedin.png",
+    "iconalt": "I and N letters in a square",
+    "text": ""
+  },
+  {
+    "id": 5,
+    "category": "footer",
+    "href": "https://github.com/FeNatalia",
+    "icon": "github.png",
+    "iconalt": "a shape of a cat in a circle",
+    "text": ""
+  }
 ]

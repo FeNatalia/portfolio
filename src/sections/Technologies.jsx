@@ -7,6 +7,7 @@ export default function Technologies() {
   const TechnologiesList = JSONTechnologies.map((item) => (
     <TechnologyItem key={item.id} title={item.title} logo={item.logo} />
   ));
+
   return (
     <div className="content-section" id="tech">
       <h2>Technologies</h2>
@@ -17,7 +18,9 @@ export default function Technologies() {
             the moment.
           </p>
         </div>
-        <div className="grid-right" id="grid-technologies">{TechnologiesList}</div>
+        <div className="grid-right" id="grid-technologies">
+          {TechnologiesList}
+        </div>
       </div>
     </div>
   );

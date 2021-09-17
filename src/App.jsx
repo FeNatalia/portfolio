@@ -18,12 +18,12 @@ export default function App() {
   return (
     <div className="App">
       <Navigation />
-      <Hero/>
+      <Hero />
       <About />
       <Projects setModal={setModal} />
       <Technologies />
       <Contact />
-      <Modal state={[modal, setModal]}/>
+      <Modal state={[modal, setModal]} />
     </div>
   );
 }

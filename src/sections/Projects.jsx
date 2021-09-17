@@ -3,14 +3,15 @@ import JSONProjects from "../data/projects.json";
 import ProjectItem from "../components/ProjectItem";
 import ProjectModal from "../components/ProjectModal";
 
-export default function Projects( { setModal }) {
+export default function Projects({ setModal }) {
   // Components
   const ProjectsList = JSONProjects.map((item) => (
-    <ProjectItem key={item.id} item={item} onClick={()=> onProject(item)}/>
+    <ProjectItem key={item.id} item={item} onClick={() => onProject(item)} />
   ));
 
+  // Methods
   function onProject(item) {
-    setModal(<ProjectModal item={item}/>);
+    setModal(<ProjectModal item={item} />);
   }
 
   return (
@@ -23,7 +24,9 @@ export default function Projects( { setModal }) {
             Novare Potential.
           </p>
         </div>
-        <div className="grid-left" id="projects-section">{ProjectsList}</div>
+        <div className="grid-left" id="projects-section">
+          {ProjectsList}
+        </div>
       </div>
     </div>
   );

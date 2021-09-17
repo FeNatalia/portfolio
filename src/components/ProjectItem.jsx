@@ -1,16 +1,13 @@
 export default function ProjectItem({ item, onClick }) {
-  //Constants
-  const {
-    title,
-    preview,
-    isFinished
-  } = item;
+  // Constants
+  const { title, preview, isFinished } = item;
   const previewObject = require(`../assets/pictures/${preview}`);
   const previewURL = previewObject.default;
 
   return (
     <article>
-      <div onClick={isFinished ? onClick : undefined}
+      <div
+        onClick={isFinished ? onClick : undefined}
         className={isFinished ? "normal" : "overlayed"}
       >
         {isFinished === false && (

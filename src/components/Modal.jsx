@@ -1,8 +1,8 @@
-// NPM Package
+// NPM Packages
 import ReactDom from "react-dom";
 
 export default function Modal({ state }) {
-  const [child, setChild ] = state;
+  const [child, setChild] = state;
 
   if (child === null) return null;
 
