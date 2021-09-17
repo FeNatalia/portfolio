@@ -3,12 +3,12 @@
     "id": 1,
     "title": "Vegan restaurant website",
     "description": "This project is about a vegan restaurant where users can see the menu, book a table and can obtain a benefit of planning their visit. It uses:",
-    "technologies": ["React", "CSS", "HTML", "JavaScript", "Figma"],
+    "technologies": ["React", "CSS", "Figma"],
     "isFinished": true,
     "preview": "vegan-restaurant-preview.jpg",
     "screenshot": "vegan-restaurant-screenshot.jpg",
-    "github": "http://www.github.com",
-    "website": "https://www.reggevhummus.se"
+    "github": "https://github.com/FeNatalia/vegan-restaurant",
+    "website": "https://fromfarm-totable.web.app"
   },
   {
     "id": 2,

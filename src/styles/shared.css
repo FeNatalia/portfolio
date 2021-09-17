@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 html {
   scroll-behavior: smooth;
 }
@@ -5,10 +7,9 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
 }
 
-/* Mobile */
 h1 {
   font-size: 34px;
   font-weight: normal;
@@ -34,7 +35,8 @@ p {
   margin: var(--space-medium);
 }
 
-@media (min-width: 750px) {
+/*Desktop queries*/
+@media (min-width: 992px) {
   h1 {
     font-size: 50px;
     font-weight: normal;

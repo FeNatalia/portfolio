@@ -1,33 +1,43 @@
 /*Shared in content*/
 .content-section {
-  min-height: 100vh;
-  display: inline-block;
-  align-items: center;
-  width: 100%;
-  padding: 0;
+  width: 100vw;
+  display: grid;
+  justify-content: center;
   margin: 0;
+  padding: 0;
+  padding-top: var(--space-bigger);
+  padding-bottom: var(--space-bigger);
 }
 
 .content-section h2 {
-  margin-top: 60px;
-  margin-right: var(--space-medium);
-  margin-left: var(--space-medium);
-  margin-bottom: var(--space-big);
-  text-align: left;
-  padding: 0;
+  margin: 0;
+  padding: var(--space-medium);
+}
+
+.content-section p {
+  margin: 0;
+  padding: var(--space-medium);
 }
 
 /*Hero*/
 #hero {
+  background-image: radial-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(255, 255, 255, 0.1)
+    ),
+    url("../assets/photos/home-picture.jpg");
+  background-size: cover;
+  background-position: center;
   min-height: 100vh;
-  background: var(--color-light-pink);
-  color: var(--color-very-dark-purple);
+  min-width: 100vw;
   display: grid;
+  justify-items: center;
   align-items: center;
   width: 100%;
 }
 
-#hero h1 {
+#hero-text {
+  color: white;
   text-align: center;
   padding: 0;
   margin: var(--space-medium);
@@ -35,19 +45,17 @@
 
 /*About me*/
 #about {
-  background: white;
-  color: var(--color-very-dark-purple);
+  background-color: white;
 }
-
 #about img {
-  width: 320px;
-  height: 228px;
-  align-items: center;
+  width: 60%;
+  border-radius: 8px;
 }
 
-.about-image {
-  display: inline-block;
-  justify-content: center;
+#about-image {
+  display: grid;
+  justify-items: center;
+  align-content: center;
 }
 
 /*Projects*/
@@ -85,9 +93,10 @@
   color: var(--color-very-dark-purple);
 }
 
-.projects-section {
+#projects-section {
   padding: var(--space-medium);
   display: grid;
+  text-align: left;
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: var(--space-small);
   grid-row-gap: var(--space-small);
@@ -95,7 +104,7 @@
 
 /*Technologies*/
 #tech {
-  background: white;
+  background-color: white;
   color: var(--color-very-dark-purple);
 }
 
@@ -113,31 +122,24 @@
   padding: 0;
 }
 
-.grid-technologies {
+#grid-technologies {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  text-align: center;
+  text-align: left;
 }
 
 /*Contact me*/
-.contact-section {
+#contact {
+  width: 100vw;
+  background-color: var(--color-light-pink);
   display: grid;
   justify-content: center;
-  margin-bottom: var(--space-big);
 }
 
-.contact-section ul {
+.content-section ul {
   margin: var(--space-medium);
   padding: 0;
   list-style: none;
-}
-
-#contact {
-  min-height: 100%;
-  background: var(--color-light-pink);
-  display: inline-block;
-  align-items: flex-end;
-  width: 100%;
 }
 
 #contact img {
@@ -145,12 +147,8 @@
   margin-right: var(--space-small);
 }
 
-.contact-section li {
+.content-section li {
   margin-bottom: var(--space-small);
-}
-
-.contact-section {
-  color: var(--color-very-dark-purple);
 }
 
 #contact a {
@@ -162,33 +160,44 @@
 
 /*Tablet queries*/
 @media (min-width: 550px) {
-  .projects-section {
-    grid-template-columns: repeat(3, 1fr);
+  .content-grid {
+    max-width: 550px;
   }
 
-  .grid-technologies {
+  #projects-section {
+    grid-template-columns: repeat(3, 1fr);
+    text-align: left;
+  }
+
+  #grid-technologies {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    text-align: center;
+    text-align: left;
   }
 
   #about img {
-    min-width: 480px;
-    min-height: 342px;
+    width: 60%;
   }
 }
 
 /*Desktop queries*/
-@media (min-width: 750px) {
+@media (min-width: 992px) {
+  .content-grid {
+    max-width: 750px;
+  }
+
+  .content-section {
+    padding-top: 0;
+  }
+
+  .content-section h2 {
+    margin-top: 90px;
+  }
+
   .content-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    align-items: flex-start;
-  }
-
-  #about img {
-    min-width: 480px;
-    min-height: 342px;
+    justify-items: center;
   }
 
   #hero h1 {
@@ -196,5 +205,9 @@
   }
   #hero {
     justify-content: center;
+  }
+
+  #about img {
+    width: 80%;
   }
 }

@@ -1,5 +1,5 @@
-export default function TechnologyCard({ title, logo }) {
-  //Constants
+export default function TechnologyItem({ title, logo }) {
+  // Constants
   const logoObject = require(`../assets/technology-icons/${logo}`);
   const logoURL = logoObject.default;
 

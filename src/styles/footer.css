@@ -1,5 +1,5 @@
 footer {
-  width: 100%;
+  width: 100vw;
   background: var(--color-dusty-pink);
   overflow: hidden;
   bottom: 0;
@@ -7,14 +7,14 @@ footer {
   justify-items: center;
 }
 
-.footer p {
+#footer p {
   margin-bottom: var(--space-medium);
   margin-top: 0;
   color: white;
   font-size: 11px;
 }
 
-.footer ul {
+#footer ul {
   list-style: none;
   display: flex;
   align-items: center;
@@ -24,7 +24,7 @@ footer {
   margin-top: var(--space-medium);
 }
 
-.footer li {
+#footer li {
   display: flex;
   justify-items: center;
 }

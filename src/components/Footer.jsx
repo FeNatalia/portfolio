@@ -1,32 +1,16 @@
-//Project files
-import LinkedIn from "../assets/icons/linkedin.png";
-import GitHub from "../assets/icons/github.png";
+// Project files
+import FooterItem from "../components/FooterItem";
+import JSONContact from "../data/contact.json";
 
 export default function Footer() {
+  // List of footer information
+  const FooterItems = JSONContact.filter(
+    (item) => item.category === "footer"
+  ).map((item) => <FooterItem key={item.id} contactInfo={item} />);
+
   return (
-    <footer className="footer">
-      <ul>
-        <li>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://www.linkedin.com/in/natfedorova/"
-          >
-            {" "}
-            <img src={LinkedIn} alt="linkedin icon" />
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://github.com/FeNatalia"
-          >
-            {" "}
-            <img src={GitHub} alt="github icon" />
-          </a>
-        </li>
-      </ul>
+    <footer id="footer">
+      <ul>{FooterItems}</ul>
       <p>© 2021 • Natalia Fedorova</p>
     </footer>
   );

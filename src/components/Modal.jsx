@@ -1,16 +1,19 @@
-//NPM Package
+// NPM Packages
 import ReactDom from "react-dom";
 
-export default function Modal({ onClose, open, children }) {
-  if (!open) return null;
+export default function Modal({ state }) {
+  const [child, setChild] = state;
+
+  if (child === null) return null;
+
   return ReactDom.createPortal(
     <>
       <div className="overlay-modal">
         <div className="modal">
           <div className="corner-button">
-            <button onClick={onClose}>X</button>
+            <button onClick={() => setChild(null)}>X</button>
           </div>
-          {children}
+          {child}
         </div>
       </div>
     </>,
