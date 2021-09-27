@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Vegan restaurant website",
-    "description": "This project is about a vegan restaurant where users can see the menu, book a table and can obtain a benefit of planning their visit. It uses:",
+    "description": "This project is about a vegan restaurant where users can see the menu and nutritional facts of each menu item, they can also see contact information to plan their visit. It uses:",
     "technologies": ["React", "CSS", "Figma"],
     "isFinished": true,
     "preview": "vegan-restaurant-preview.jpg",
@@ -14,12 +14,12 @@
     "id": 2,
     "title": "Package tracker",
     "description": "This project is about package tracking where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
-    "technologies": ["React", "CSS", "HTML"],
-    "isFinished": false,
+    "technologies": ["React", "CSS", "Figma"],
+    "isFinished": true,
     "preview": "package-preview.jpg",
     "screenshot": "package-screenshot.jpg",
-    "github": "http://www.github.com",
-    "website": "http://www.google.com"
+    "github": "https://github.com/FeNatalia/yellowboxtracking",
+    "website": "https://yellowboxtracking.web.app"
   },
   {
     "id": 3,
