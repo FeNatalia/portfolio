@@ -13,7 +13,7 @@
   {
     "id": 2,
     "title": "Package tracker",
-    "description": "This project is about package tracking where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
+    "description": "This is a simple web app that displays a list of parcels using API Endpoint with some details like order status, ETAs, pickup locations, etc. It uses:",
     "technologies": ["React", "CSS", "Figma"],
     "isFinished": true,
     "preview": "package-preview.jpg",
