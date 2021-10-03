@@ -121,6 +121,10 @@
 
 /*Tablet queries*/
 @media (min-width: 550px) {
+  #technologies-list {
+    max-width: 500px;
+  }
+
   #modal-popup {
     min-width: 520px;
     display: grid;

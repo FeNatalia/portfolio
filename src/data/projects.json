@@ -13,7 +13,7 @@
   {
     "id": 2,
     "title": "Package tracker",
-    "description": "This is a simple web app that displays a list of parcels using API Endpoint with some details like order status, ETAs, pickup locations, etc. It uses:",
+    "description": "This is a web app that displays a list of parcels using API Endpoint with some details like order status, ETAs, pickup locations, etc. It uses:",
     "technologies": ["React", "CSS", "Figma"],
     "isFinished": true,
     "preview": "package-preview.jpg",
@@ -23,14 +23,14 @@
   },
   {
     "id": 3,
-    "title": "Todo list TDD",
-    "description": "This project is about todo list where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
-    "technologies": ["React", "CSS", "HTML"],
-    "isFinished": false,
+    "title": "Todo list - Unit Testing",
+    "description": "This is a todo list app which allows you to stay organized. You can add items, sort them by name, mark them done and store the list on your web browser. It uses:",
+    "technologies": ["React", "CSS", "Testing Library", "Figma"],
+    "isFinished": true,
     "preview": "todo-preview.jpg",
     "screenshot": "todo-screenshot.jpg",
-    "github": "http://www.github.com",
-    "website": "http://www.google.com"
+    "github": "https://github.com/FeNatalia/todo-list-testing",
+    "website": "https://todolist-nf.web.app/"
   },
   {
     "id": 4,

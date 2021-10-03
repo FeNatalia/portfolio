@@ -20,8 +20,13 @@ export default function Projects({ setModal }) {
       <div className="content-grid">
         <div className="grid-left">
           <p>
-            Here are the projects I will be making during the Frontend course at
-            Novare Potential.
+            These are the projects I am working on during the Frontend Development 
+            course at Novare Potential. 
+          </p>
+          <p>
+            You can also find projects from my previous course
+            (Software Development Academy at KTH - Royal Instutite of Technology) 
+            on my GitHub page.
           </p>
         </div>
         <div className="grid-left" id="projects-section">
