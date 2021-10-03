@@ -105,12 +105,13 @@
 }
 
 .corner-button button {
+  margin: var(--space-small);
   color: var(--color-very-dark-purple);
   font-weight: bolder;
   font-size: 20px;
   position: absolute;
-  left: 89%;
-  border: 2px solid var(--color-very-dark-purple);
+  left: 85%;
+  border: 2px solid white;
   background-color: white;
 }
 
@@ -120,6 +121,10 @@
 
 /*Tablet queries*/
 @media (min-width: 550px) {
+  #technologies-list {
+    max-width: 500px;
+  }
+
   #modal-popup {
     min-width: 520px;
     display: grid;
@@ -135,7 +140,7 @@
   }
 
   .corner-button button {
-    left: 93%;
+    left: 91%;
   }
 }
 
@@ -161,6 +166,7 @@
   }
 
   .corner-button button {
-    left: 96%;
+    font-size: 22px;
+    left: 95%;
   }
 }

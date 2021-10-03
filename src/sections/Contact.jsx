@@ -15,7 +15,7 @@ export default function Contact() {
         <h2>Contact me</h2>
         <div className="content-grid">
           <p>
-            Here is my contact information if you are interested in hiring me.
+            Here is my contact information if you are interested in interviewing me.
           </p>
           <div>
             <ul>{ContactItems}</ul>

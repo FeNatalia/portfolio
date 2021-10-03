@@ -13,10 +13,12 @@ export default function About() {
             projects that I have developed.
           </p>
           <p>
-            I specialize in React development with a user-centered design. I
-            have previously completed IT Project Management training with the
-            focus on Scrum. If your company uses Agile methodologies - we are on
-            the same page. Scroll down to see some of my work!
+            I specialize in React development with a user-centered design. Additionally, 
+            I have previous experience working with Project Management at a Swedish EdTech startup. 
+            And I have accomplished training which prepared me to work as a Scrum Master.
+          </p>
+          <p>
+            Scroll down to see some of my work!
           </p>
         </div>
         <div className="grid-right" id="about-image">

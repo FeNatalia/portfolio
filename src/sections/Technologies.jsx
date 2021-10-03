@@ -14,8 +14,13 @@ export default function Technologies() {
       <div className="content-grid">
         <div className="grid-left">
           <p>
-            Here are the techologies that I already know and also learning at
-            the moment.
+            These are the techologies that I already know and also learning at
+            the moment. 
+          </p>
+          <p>
+            As a Software Developer, my goal is to continually 
+            increase my programming skills in order to present better solutions 
+            to my future employers and their clients.
           </p>
         </div>
         <div className="grid-right" id="grid-technologies">

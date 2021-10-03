@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Vegan restaurant website",
-    "description": "This project is about a vegan restaurant where users can see the menu, book a table and can obtain a benefit of planning their visit. It uses:",
+    "description": "This project is about a vegan restaurant where users can see the menu and nutritional facts of each menu item, they can also see contact information to plan their visit. It uses:",
     "technologies": ["React", "CSS", "Figma"],
     "isFinished": true,
     "preview": "vegan-restaurant-preview.jpg",
@@ -13,24 +13,24 @@
   {
     "id": 2,
     "title": "Package tracker",
-    "description": "This project is about package tracking where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
-    "technologies": ["React", "CSS", "HTML"],
-    "isFinished": false,
+    "description": "This is a web app that displays a list of parcels using API Endpoint with some details like order status, ETAs, pickup locations, etc. It uses:",
+    "technologies": ["React", "CSS", "Figma"],
+    "isFinished": true,
     "preview": "package-preview.jpg",
     "screenshot": "package-screenshot.jpg",
-    "github": "http://www.github.com",
-    "website": "http://www.google.com"
+    "github": "https://github.com/FeNatalia/yellowboxtracking",
+    "website": "https://yellowboxtracking.web.app"
   },
   {
     "id": 3,
-    "title": "Todo list TDD",
-    "description": "This project is about todo list where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
-    "technologies": ["React", "CSS", "HTML"],
-    "isFinished": false,
+    "title": "Todo list - Unit Testing",
+    "description": "This is a todo list app which allows you to stay organized. You can add items, sort them by name, mark them done and store the list on your web browser. It uses:",
+    "technologies": ["React", "CSS", "Testing Library", "Figma"],
+    "isFinished": true,
     "preview": "todo-preview.jpg",
     "screenshot": "todo-screenshot.jpg",
-    "github": "http://www.github.com",
-    "website": "http://www.google.com"
+    "github": "https://github.com/FeNatalia/todo-list-testing",
+    "website": "https://todolist-nf.web.app/"
   },
   {
     "id": 4,
