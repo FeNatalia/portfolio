@@ -34,17 +34,6 @@
   },
   {
     "id": 4,
-    "title": "E-commerce site",
-    "description": "This project is about e-commerce where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
-    "technologies": ["React", "CSS", "HTML"],
-    "isFinished": false,
-    "preview": "shop-preview.jpg",
-    "screenshot": "shop-screenshot.jpg",
-    "github": "http://www.github.com",
-    "website": "http://www.google.com"
-  },
-  {
-    "id": 5,
     "title": "BBQ restaurant website",
     "description": "This project is about a bbq restaurant where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
     "technologies": ["React", "CSS", "HTML"],
@@ -55,7 +44,7 @@
     "website": "http://www.google.com"
   },
   {
-    "id": 6,
+    "id": 5,
     "title": "Learning platform",
     "description": "This project is about LMS where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
     "technologies": ["React", "CSS", "HTML"],
@@ -66,7 +55,7 @@
     "website": "http://www.google.com"
   },
   {
-    "id": 7,
+    "id": 6,
     "title": "Netflix clone",
     "description": "This project is about Netflix clone where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
     "technologies": ["React", "CSS", "HTML"],
