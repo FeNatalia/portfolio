@@ -136,6 +136,15 @@
   justify-content: center;
 }
 
+#contact a{
+  padding: var(--space-medium);
+}
+
+#contact-item a{
+  padding: 0;
+  text-decoration: none;
+}
+
 .content-section ul {
   margin: var(--space-medium);
   padding: 0;
@@ -152,7 +161,6 @@
 }
 
 #contact a {
-  text-decoration: none;
   display: flex;
   align-items: center;
   color: var(--color-very-dark-purple);
