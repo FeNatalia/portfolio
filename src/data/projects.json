@@ -35,24 +35,24 @@
   {
     "id": 4,
     "title": "BBQ restaurant website",
-    "description": "This project is about a bbq restaurant where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
-    "technologies": ["React", "CSS", "HTML"],
-    "isFinished": false,
+    "description": "This is a web page for a BBQ restaurant that shows information about restaurant and its food. The data is connected to Cloud Firestore. It also has an admin page where you can edit menu. It uses:",
+    "technologies": ["React", "CSS", "NoSQL database", "Figma"],
+    "isFinished": true,
     "preview": "bbq-preview.jpg",
     "screenshot": "bbq-screenshot.jpg",
-    "github": "http://www.github.com",
-    "website": "http://www.google.com"
+    "github": "https://github.com/FeNatalia/openfire-bbqexperience",
+    "website": "https://openfire-bbqexperience.web.app"
   },
   {
     "id": 5,
     "title": "Learning platform",
-    "description": "This project is about LMS where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
-    "technologies": ["React", "CSS", "HTML"],
-    "isFinished": false,
+    "description": "This project is about an e-learning platform. There are 2 types of users: Teacher and Student. The project is connected to Firebase Authentication and Cloud Firestore. It uses:",
+    "technologies": ["React", "CSS", "NoSQL database", "Firebase Authentication", "Figma"],
+    "isFinished": true,
     "preview": "lms-preview.jpg",
     "screenshot": "lms-screenshot.jpg",
-    "github": "http://www.github.com",
-    "website": "http://www.google.com"
+    "github": "https://github.com/FeNatalia/lms-platform",
+    "website": "https://openeyeselearning.web.app"
   },
   {
     "id": 6,
