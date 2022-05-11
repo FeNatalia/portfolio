@@ -57,12 +57,12 @@
   {
     "id": 6,
     "title": "Netflix clone",
-    "description": "This project is about Netflix clone where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
-    "technologies": ["React", "CSS", "HTML"],
-    "isFinished": false,
+    "description": "This project is a Netflix clone with Content Management Interface - you can watch movies and series as a user, and you can edit and add movies as an admin. It uses:",
+    "technologies": ["React", "CSS", "Firebase Auth", "NoSQL database"],
+    "isFinished": true,
     "preview": "netflix-preview.jpg",
     "screenshot": "netflix-screenshot.jpg",
-    "github": "http://www.github.com",
-    "website": "http://www.google.com"
+    "github": "https://github.com/FeNatalia/netflix-clone",
+    "website": "https://netelixclone.web.app"
   }
 ]
