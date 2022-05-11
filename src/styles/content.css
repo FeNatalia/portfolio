@@ -14,6 +14,10 @@
   padding: var(--space-medium);
 }
 
+#projects h3 {
+  padding-left: var(--space-medium);
+}
+
 .content-section p {
   margin: 0;
   padding: var(--space-medium);
@@ -61,7 +65,8 @@
 /*Projects*/
 #projects img {
   width: 130px;
-  height: auto;
+  height: 100px;
+  object-fit: cover;
   border-radius: 8px;
   padding: 0;
 }

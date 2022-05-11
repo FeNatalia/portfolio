@@ -1,0 +1,35 @@
+[
+    {
+      "id": 1,
+      "title": "ToDoList (Java)",
+      "description": "ToDoList is a simple todo list app with a text-based user interface. You can add your tasks, see and maintain a list of your tasks. The app is controlled by commands written by the user in a terminal. It uses:",
+      "technologies": ["Java"],
+      "isFinished": true,
+      "preview": "java-todo-preview.jpg",
+      "screenshot": "java-todo-screenshot.jpg",
+      "github": "https://github.com/FeNatalia/ToDoListProject",
+      "website": ""
+    },
+    {
+      "id": 2,
+      "title": "MovieClub - Discussion Forum",
+      "description": "MovieClub is a full-stack application representing a web discussion forum where users can create posts and comment (do crud-operations). It uses:",
+      "technologies": ["Spring", "Postgres", "React"],
+      "isFinished": true,
+      "preview": "movieclub-preview.jpg",
+      "screenshot": "movieclub-screenshot.jpg",
+      "github": "https://github.com/FeNatalia/My-Online-Forum",
+      "website": ""
+    },
+    {
+      "id": 3,
+      "title": "NewHive - Social Media Platform",
+      "description": "NewHive is a fullstack social media platform in Sweden where immigrant women can meet and connect. It uses:",
+      "technologies": ["Spring", "React", "Postgres", "Figma"],
+      "isFinished": true,
+      "preview": "newhive-preview.jpg",
+      "screenshot": "newhive-screenshot.jpg",
+      "github": "https://github.com/FeNatalia/NewHive",
+      "website": "https://secret-waters-48687.herokuapp.com/"
+    }
+]
