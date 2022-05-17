@@ -26,6 +26,7 @@
   width: 300px;
   height: 210px;
   object-fit: cover;
+  object-position: top;
 }
 
 #modal-popup {
@@ -131,8 +132,8 @@
     display: grid;
   }
   #modal-img {
-    min-width: 520px;
-    min-height: 350px;
+    width: 520px;
+    height: 250px;
   }
   #modal-popup img {
     min-width: 100%;

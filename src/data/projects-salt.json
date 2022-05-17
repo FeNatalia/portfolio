@@ -1,0 +1,35 @@
+[
+    {
+      "id": 1,
+      "title": "Todo List (Redux)",
+      "description": "ToDoList is a simple todo list app with a text-based user interface. You can add your tasks, see and maintain a list of your tasks. The app is controlled by commands written by the user in a terminal. It uses:",
+      "technologies": ["Redux"],
+      "isFinished": true,
+      "preview": "java-todo-preview.jpg",
+      "screenshot": "java-todo-screenshot.jpg",
+      "github": "https://github.com/FeNatalia/ToDoListProject",
+      "website": ""
+    },
+    {
+      "id": 2,
+      "title": "CountryFinder - REST API",
+      "description": "CountryFinder is a fullstack app that uses external API endpoints to search for countries, sort by regions and get information about each country such as population, capital, flag, etc. It uses:",
+      "technologies": ["NodeJS", "ExpressJS", "React", "CSS",  "REST API"],
+      "isFinished": true,
+      "preview": "movieclub-preview.jpg",
+      "screenshot": "movieclub-screenshot.jpg",
+      "github": "https://github.com/FeNatalia/My-Online-Forum",
+      "website": ""
+    },
+    {
+      "id": 3,
+      "title": "Lendit - Lending App",
+      "description": "Lendil is a fullstack platform where users can lend their items to others or borrow things that they need. It uses:",
+      "technologies": ["NodeJS", "ExpressJS", "React", "CSS", "EmailJS", "GitHub Actions" ,"Firebase Auth", "MongoDB", "Heroku"],
+      "isFinished": true,
+      "preview": "lendit-preview.jpg",
+      "screenshot": "lendit-screenshot1.jpg",
+      "github": "https://github.com/FeNatalia/lending-app",
+      "website": "https://lending-app-codezilla.herokuapp.com/"
+    }
+]
