@@ -27,11 +27,13 @@ export default function ProjectModal({ item }) {
         <p>{description}</p>
         <ul id="technologies-list">{ProjectTechnologiesList}</ul>
         <div className="buttons">
+          {website && website !== "" && (
           <button className="purple-button">
             <a target="_blank" rel="noopener noreferrer" href={website}>
               Visit website/app
             </a>
           </button>
+          )}
           <button className="white-button">
             <a target="_blank" rel="noopener noreferrer" href={github}>
               Git repository

@@ -34,46 +34,35 @@
   },
   {
     "id": 4,
-    "title": "E-commerce site",
-    "description": "This project is about e-commerce where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
-    "technologies": ["React", "CSS", "HTML"],
-    "isFinished": false,
-    "preview": "shop-preview.jpg",
-    "screenshot": "shop-screenshot.jpg",
-    "github": "http://www.github.com",
-    "website": "http://www.google.com"
+    "title": "BBQ restaurant website",
+    "description": "This is a web page for a BBQ restaurant that shows information about restaurant and its food. The data is connected to Cloud Firestore. It also has an admin page where you can edit menu. It uses:",
+    "technologies": ["React", "CSS", "NoSQL database", "Figma"],
+    "isFinished": true,
+    "preview": "bbq-preview.jpg",
+    "screenshot": "bbq-screenshot.jpg",
+    "github": "https://github.com/FeNatalia/openfire-bbqexperience",
+    "website": "https://openfire-bbqexperience.web.app"
   },
   {
     "id": 5,
-    "title": "BBQ restaurant website",
-    "description": "This project is about a bbq restaurant where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
-    "technologies": ["React", "CSS", "HTML"],
-    "isFinished": false,
-    "preview": "bbq-preview.jpg",
-    "screenshot": "bbq-screenshot.jpg",
-    "github": "http://www.github.com",
-    "website": "http://www.google.com"
+    "title": "Learning platform",
+    "description": "This project is about an e-learning platform. There are 2 types of users: Teacher and Student. The project is connected to Firebase Authentication and Cloud Firestore. It uses:",
+    "technologies": ["React", "CSS", "NoSQL database", "Firebase Authentication", "Figma"],
+    "isFinished": true,
+    "preview": "lms-preview.jpg",
+    "screenshot": "lms-screenshot.jpg",
+    "github": "https://github.com/FeNatalia/lms-platform",
+    "website": "https://openeyeselearning.web.app"
   },
   {
     "id": 6,
-    "title": "Learning platform",
-    "description": "This project is about LMS where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
-    "technologies": ["React", "CSS", "HTML"],
-    "isFinished": false,
-    "preview": "lms-preview.jpg",
-    "screenshot": "lms-screenshot.jpg",
-    "github": "http://www.github.com",
-    "website": "http://www.google.com"
-  },
-  {
-    "id": 7,
     "title": "Netflix clone",
-    "description": "This project is about Netflix clone where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
-    "technologies": ["React", "CSS", "HTML"],
-    "isFinished": false,
+    "description": "This project is a Netflix clone with Content Management Interface - you can watch movies and series as a user, and you can edit and add movies as an admin. It uses:",
+    "technologies": ["React", "CSS", "Firebase Auth", "NoSQL database"],
+    "isFinished": true,
     "preview": "netflix-preview.jpg",
-    "screenshot": "netflix-screenshot.jpg",
-    "github": "http://www.github.com",
-    "website": "http://www.google.com"
+    "screenshot": "netelix-screenshot1.jpg",
+    "github": "https://github.com/FeNatalia/netflix-clone",
+    "website": "https://netelixclone.web.app"
   }
 ]

@@ -14,9 +14,18 @@ export default function Contact() {
       <div className="content-section">
         <h2>Contact me</h2>
         <div className="content-grid">
-          <p>
-            Here is my contact information if you are interested in interviewing me.
-          </p>
+          <div>
+            <p>
+              Here is my contact information if you are interested in hiring me via Salt.
+            </p>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://drive.google.com/file/d/1aaNzvoi5eAwhESzvL2kHnnp4JCuquTrh/view?usp=sharing"
+            >
+              Check my detailed CV here.
+            </a>
+          </div>
           <div>
             <ul>{ContactItems}</ul>
           </div>

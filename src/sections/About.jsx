@@ -8,12 +8,11 @@ export default function About() {
       <div className="content-grid">
         <div className="grid-left">
           <p>
-            Hello! I’m Natalia, a Junior Front End Developer and Project Manager
-            in IT based in Stockholm. Welcome to my website, here you can find
-            projects that I have developed.
+            Hello! I’m Natalia, a Full Stack Developer based in Stockholm. Welcome to my website, here you can find
+            information about projects that I have developed.
           </p>
           <p>
-            I specialize in React development with a user-centered design. Additionally, 
+            I specialize in Full Stack development with a user-centric design on mind. Additionally, 
             I have previous experience working with Project Management at a Swedish EdTech startup. 
             And I have accomplished training which prepared me to work as a Scrum Master.
           </p>
