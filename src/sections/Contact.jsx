@@ -16,7 +16,7 @@ export default function Contact() {
         <div className="content-grid">
           <div>
             <p>
-              Here is my contact information if you are interested in interviewing me.
+              Here is my contact information if you are interested in hiring me via Salt.
             </p>
             <a
               target="_blank"

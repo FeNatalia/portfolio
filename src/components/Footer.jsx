@@ -11,7 +11,7 @@ export default function Footer() {
   return (
     <footer id="footer">
       <ul>{FooterItems}</ul>
-      <p>© 2021 • Natalia Fedorova</p>
+      <p>© 2022 • Natalia Fedorova</p>
     </footer>
   );
 }
