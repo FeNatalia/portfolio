@@ -118,7 +118,21 @@
 }
 
 .tech-card {
-  margin: var(--space-medium);
+  padding: var(--space-small);
+  margin: var(--space-small);
+  display: grid;
+  justify-content: center;
+}
+
+#tech .content-grid {
+  border-radius: 10px;
+  border: 1px solid var(--color-light-pink);
+  margin-bottom: var(--space-medium);
+}
+
+.tech-card {
+  border-radius: 10px;
+  border: 1px solid var(--color-light-pink);
 }
 
 .tech-card img {
@@ -177,6 +191,7 @@
 
 /*Tablet queries*/
 @media (min-width: 550px) {
+
   .content-grid {
     max-width: 550px;
   }
@@ -213,7 +228,7 @@
 
   .content-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 2fr;
     justify-items: left;
   }
 
