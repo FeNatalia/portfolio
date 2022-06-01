@@ -16,41 +16,26 @@
   },
   {
     "id": 4,
-    "title": "Git",
-    "logo": "git.png"
-  },
-  {
-    "id": 5,
     "title": "React",
     "logo": "react.png"
   },
   {
-    "id": 6,
-    "title": "Java",
-    "logo": "java.png"
-  },
-  {
-    "id": 7,
-    "title": "Figma",
-    "logo": "figma.png"
-  },
-  {
-    "id": 8,
+    "id": 5,
     "title": "TypeScript",
     "logo": "typescript.png"
   },
   {
-    "id": 9,
+    "id": 6,
     "title": "Sass",
     "logo": "sass.png"
   },
   {
-    "id": 10,
-    "title": "Recoil",
-    "logo": "recoil.png"
+    "id": 7,
+    "title": "Handlebars",
+    "logo": "handlebars.png"
   },
   {
-    "id": 11,
+    "id": 8,
     "title": "Unit Testing",
     "logo": "jest.png"
   }

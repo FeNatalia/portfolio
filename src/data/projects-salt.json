@@ -16,7 +16,7 @@
       "description": "CountryFinder is a fullstack app that uses external API endpoints to search for countries, sort by regions and get information about each country such as population, capital, flag, etc. It uses:",
       "technologies": ["NodeJS", "ExpressJS", "React", "CSS",  "REST API"],
       "isFinished": true,
-      "preview": "movieclub-preview.jpg",
+      "preview": "countries-preview.jpg",
       "screenshot": "countries-screenshot.jpg",
       "github": "https://github.com/FeNatalia/My-Online-Forum",
       "website": ""

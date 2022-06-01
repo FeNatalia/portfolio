@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "title": "Git",
+        "logo": "git.png"
+    },
+    {
+        "id": 2,
+        "title": "Figma",
+        "logo": "figma.png"
+    },
+    {
+        "id": 3,
+        "title": "Firebase",
+        "logo": "firebase.png"
+    },
+    {
+        "id": 4,
+        "title": "Heroku",
+        "logo": "heroku.png"
+    },
+    {
+        "id": 5,
+        "title": "AWS",
+        "logo": "aws.png"
+    }
+]
