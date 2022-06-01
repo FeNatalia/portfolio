@@ -13,15 +13,23 @@ export default function Technologies() {
       <h2>Technologies</h2>
       <div className="content-grid">
         <div className="grid-left">
-          <p>
-            These are the techologies that I already know and also learning at
-            the moment. 
-          </p>
-          <p>
-            As a Software Developer, my goal is to continually 
-            increase my programming skills in order to present better solutions 
-            to my future employers and their clients.
-          </p>
+          <h3>Front End</h3>
+        </div>
+        <div className="grid-right" id="grid-technologies">
+          {TechnologiesList}
+        </div>
+      </div>
+      <div className="content-grid">
+        <div className="grid-left">
+        <h3>Back End</h3>
+        </div>
+        <div className="grid-right" id="grid-technologies">
+          {TechnologiesList}
+        </div>
+      </div>
+      <div className="content-grid">
+        <div className="grid-left">
+        <h3>Other technologies</h3>
         </div>
         <div className="grid-right" id="grid-technologies">
           {TechnologiesList}

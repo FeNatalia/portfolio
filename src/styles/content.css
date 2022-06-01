@@ -113,6 +113,10 @@
   color: var(--color-very-dark-purple);
 }
 
+#tech .grid-left h3{
+  margin-left: var(--space-medium);
+}
+
 .tech-card {
   margin: var(--space-medium);
 }
@@ -210,7 +214,11 @@
   .content-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
+    justify-items: left;
+  }
+
+  #tech .grid-left h3{
+    margin-left: var(--space-big);
   }
 
   #hero h1 {
