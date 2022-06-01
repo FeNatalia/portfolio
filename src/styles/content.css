@@ -228,8 +228,12 @@
 
   .content-grid {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
     justify-items: left;
+  }
+  
+  #tech .content-grid{
+    grid-template-columns: 1fr 2fr;
   }
 
   #tech .grid-left h3{
