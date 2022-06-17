@@ -21,7 +21,7 @@ export default function Contact() {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://drive.google.com/file/d/1aaNzvoi5eAwhESzvL2kHnnp4JCuquTrh/view?usp=sharing"
+              href="https://drive.google.com/file/d/1ifkhzK1hu-3Jj379gusCujrnLns1MYCm/view?usp=sharing"
             >
               Check my detailed CV here.
             </a>
