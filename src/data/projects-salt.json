@@ -31,5 +31,16 @@
       "screenshot": "lendit-screenshot1.jpg",
       "github": "https://github.com/FeNatalia/lending-app",
       "website": "https://lending-app-codezilla.herokuapp.com/"
+    },
+    {
+      "id": 4,
+      "title": "Discussion Forum App",
+      "description": "Forum is a platform where users can discuss different topics via posts. It uses:",
+      "technologies": ["EJS Templating", "ExpressJS", "MongoDB", "Boostrap"],
+      "isFinished": true,
+      "preview": "forum-preview.jpg",
+      "screenshot": "forum-screenshot.jpg",
+      "github": "https://github.com/FeNatalia/express-ejs-bootstrap",
+      "website": ""
     }
 ]
